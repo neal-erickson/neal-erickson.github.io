@@ -1,0 +1,52 @@
+body {
+	font-family: ‘Lucida Console’, Monaco, monospace;
+}
+
+h1 {
+	font-size: 30px;
+	text-transform: lowercase;
+	color: #FFF;
+	margin: 0;
+}
+
+h1 a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	text-decoration: underline;
+}
+
+#header-wrapper {
+	margin-top: 50px;
+	background-color: #333;
+	padding: 20px 50px;
+	position: relative;
+	z-index: 1000;
+}
+
+#header-inner {
+
+}
+
+#main-content {
+	position: relative;
+}
+
+#left-content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 100px;
+	width:200px;
+	padding-top: 120px;
+	background-color: #666;
+	color: #FFF;
+	z-index: 500;
+}
+
+#left-content ul li {
+	list-style: none;
+
+}
