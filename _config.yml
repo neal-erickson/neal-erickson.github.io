@@ -1,0 +1,8 @@
+title: Neal-erickson.github.com
+description: Neal Erickson
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
